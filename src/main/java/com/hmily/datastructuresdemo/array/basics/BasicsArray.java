@@ -1,9 +1,14 @@
 package com.hmily.datastructuresdemo.array.basics;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class BasicsArray {
+	private final static Logger log = LoggerFactory.getLogger(BasicsArray.class);
+	
     public static void main(String[] args) {
         // java 数组的使用
         log.info("---声明长度 但 不赋值---");
