@@ -68,6 +68,14 @@ public class DynamicArray<E> {
         return data[index];
     }
 
+    public E getFirst(){
+        return get(0);
+    }
+
+    public E getLast(){
+        return get(size - 1);
+    }
+
     // 修改index索引位置的元素为e
     public void set(int index, E e) {
         if (index < 0 || index >= size){
